@@ -67,6 +67,10 @@
 ;; http://xenon.stanford.edu/~manku/dotemacs.html
 (setq-default indent-tabs-mode nil)
 
+;; Habilita ido-mode.
+;; http://www.emacswiki.org/InteractivelyDoThings
+(ido-mode t)
+
 ;; Para funcionar acentuação no Sony Vaio.
 (require 'iso-transl)
 
@@ -794,6 +798,9 @@
  ;; '(bmkp-light-style-autonamed (quote lfringe))
  ;; '(bmkp-light-style-non-autonamed (quote lfringe))
  ;; '(bmkp-temporary-bookmarking-mode nil)
+ ;; Para não marcar como selecionada regiões entre mark e point.
+ ;; C-<space> para marcar, C-x C-x para saltar entre point e mark.
+ '(transient-mark-mode nil)
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
 
 (custom-set-faces
