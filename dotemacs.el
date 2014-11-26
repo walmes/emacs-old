@@ -815,7 +815,7 @@
  ;; '(bmkp-temporary-bookmarking-mode nil)
  ;; Para não marcar como selecionada regiões entre mark e point.
  ;; C-<space> para marcar, C-x C-x para saltar entre point e mark.
- '(transient-mark-mode nil)
+ ;; '(transient-mark-mode nil)
  '(visual-line-fringe-indicators (quote (nil right-curly-arrow)))
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
 
