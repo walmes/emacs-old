@@ -40,6 +40,11 @@
 ;; Quebra de linhas ao exceder largura do texto (padrão é 72
 ;; caracteres).
 (setq-default fill-column 72)
+;; (setq fill-column 72)
+;; (setq-default truncate-lines t)
+
+;; Modo de linhas de tela (screen lines) e não lógicas (logical lines).
+(visual-line-mode 1)
 
 ;; Ativa o auto-fill-mode para fazer quebra automática de linhas.
 (setq-default auto-fill-function 'do-auto-fill)
@@ -70,6 +75,16 @@
 ;; Habilita ido-mode.
 ;; http://www.emacswiki.org/InteractivelyDoThings
 (ido-mode t)
+
+;; https://github.com/magnars/.emacs.d/blob/master/sane-defaults.el
+;; Salva lista de aquivos recentes. Abrir lista com C-x f
+(recentf-mode 1)
+(setq recentf-max-saved-items 100) ;; 20 é muito pouco.
+;; Salva histórico de comandos do minibuffer.
+(savehist-mode 1)
+(setq history-length 1000)
+;; Não quebrar linhas.
+(setq-default truncate-lines t)
 
 ;; Para funcionar acentuação no Sony Vaio.
 (require 'iso-transl)
@@ -801,6 +816,7 @@
  ;; Para não marcar como selecionada regiões entre mark e point.
  ;; C-<space> para marcar, C-x C-x para saltar entre point e mark.
  '(transient-mark-mode nil)
+ '(visual-line-fringe-indicators (quote (nil right-curly-arrow)))
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
 
 (custom-set-faces
