@@ -165,6 +165,10 @@
 (require 'poly-markdown)
 (require 'poly-noweb)
 
+(autoload 'poly-markdown-mode "poly-markdown-mode"
+  "Major mode for editing R-Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.Rmd\\'" . poly-markdown-mode))
+
 ;;-----------------------------------------------------------------------------
 ;; Super mega ultra atalhos para sessões R, Rnw e Rmd.
 ;; http://stackoverflow.com/questions/2901198/useful-keyboard-shortcuts-and-tips-for-ess-r
