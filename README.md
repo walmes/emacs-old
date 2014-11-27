@@ -3,6 +3,9 @@
 > Saying that Emacs is just a text editor is like calling iPhone just a
 > phone. [(Luke - Terminally Incoherent)](http://www.terminally-incoherent.com/blog/2007/12/13/emacs-with-auctex-as-a-latex-ide/)
 
+> While any text editor can save your files, only Emacs can save your
+> soul. (Per Abrahamsen)
+
 ---
 
 **Neste diretório git serão mantidos os arquivos de configuração do

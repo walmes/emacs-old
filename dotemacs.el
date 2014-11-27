@@ -12,6 +12,10 @@
 ;; http://www.emacswiki.org/wiki/EmacsNiftyTricks
 ;; “I’ve used emacs for many years now, but have never reached its
 ;;    maximum potential.” – Anon.
+;;    
+;; http://www.mygooglest.com/fni/dot-emacs.html
+;; “Show me your ~/.emacs and I will tell
+;;    you who you are.” - Bogdan Maryniuk.
 
 ;;-----------------------------------------------------------------------------
 ;; Definições básicas de sessão.
