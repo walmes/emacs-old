@@ -1,3 +1,9 @@
 .gitignore
-dotemacs.d/*
+dotemacs.d/elpa/bookmark+/*
+dotemacs.d/emacs-color-theme-solarized/*
+dotemacs.d/polymode/*
+dotemacs.d/dict/*
+dotemacs.d/ac-dict/*
+dotemacs.d/*.el
+dotemacs.d/*.elc
 
