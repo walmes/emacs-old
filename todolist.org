@@ -1,0 +1,11 @@
+
+* TODO Revisar os `.emacs' disponíveis na web.
+* TODO Aprender usar o org-mode.
+* TODO Aprender a usar os hooks [[http://www.emacswiki.org/emacs/EmacsLispMode][(hooks for el)]].
+* TODO Dominar a navegação entre parenteses http://www.emacswiki.org/emacs/NavigatingParentheses.
+* DONE Obter um bom org-mode cheat sheet. 
+* TODO Escolher um color-theme foda http://emacsthemes.caisah.info/.
+** http://emacsthemes.caisah.info/spolsky-theme/
+** http://emacsthemes.caisah.info/assemblage-theme/
+** http://emacsthemes.caisah.info/zonokai-theme/
+** http://emacsthemes.caisah.info/github-theme/
