@@ -202,9 +202,13 @@
 (color-theme-initialize)
 (setq color-theme-is-global t)
 
-(add-to-list 'load-path "/home/walmes/.emacs.d/emacs-color-theme-solarized")
-(require 'color-theme-solarized)
-(color-theme-solarized-dark)
+;; (add-to-list 'load-path "/home/walmes/.emacs.d/emacs-color-theme-solarized")
+;; (require 'color-theme-solarized)
+;; (color-theme-solarized-dark)
+
+;; https://github.com/wasamasa/gotham-theme
+;; (add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/elpa/gotham-theme/"))
+;; (load-theme 'gotham t)
 
 ;;-----------------------------------------------------------------------------
 ;; Para avaliar linhas/regiões no terminal aberto do Linux no Emacs tal
