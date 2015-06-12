@@ -114,13 +114,13 @@
 (global-set-key [?\M-+] (kbd "M-h C-M-\\"))
 
 ;; Define M-= para fazer linha com 77 sinais de =.
-(global-set-key [?\M-=] (kbd "C-u 7 7 ="))
+(global-set-key [?\M-=] (kbd "C-u 7 0 ="))
 
 ;; Define M-- para fazer linha com 77 sinais de -.
-(global-set-key [?\M--] (kbd "C-u 7 7 -"))
+(global-set-key [?\M--] (kbd "C-u 7 0 -"))
 
 ;; Define C-- para fazer linha com 44 sinais de -.
-(global-set-key [?\C--] (kbd "C-u 4 4 -"))
+(global-set-key [?\C--] (kbd "C-u 4 3 -"))
 
 ;; Define S-F11 e S-F12 para trocar entre modo com e sem menus.
 ;; (global-set-key (kbd "<f11>") 'toggle-fullscreen)
