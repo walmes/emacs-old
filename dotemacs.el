@@ -133,8 +133,18 @@
 ;; O markdown-mode.el vem com a instalação do emacs-goodies-el.
 ;;   sudo apt-get install emacs-goodies-el
 
-;; Inicia no modo para markdown para arquivos *.md e *.markdown.
+;; Outra opção é ter o markdown-mode.el do github.
 ;; http://jblevins.org/projects/markdown-mode/
+
+;;   cd dotemacs.d
+;;   git clone git://jblevins.org/git/markdown-mode.git
+;;   cd markdown-mode
+;;   rm -rf .git .gitignore tests webpage.sh README.md
+(setq load-path
+      (append '("~/.emacs.d/markdown-mode")
+              load-path))
+
+;; Inicia no modo para markdown para arquivos *.md e *.markdown.
 (autoload 'markdown-mode "markdown-mode"
   "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
@@ -362,6 +372,10 @@
 (require 'tex-site)
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
+
+;; Arquivos pgf e pgs (Tikz) com modo tex.
+(add-to-list 'auto-mode-alist '("\\.pgf" . tex-mode))
+(add-to-list 'auto-mode-alist '("\\.pgs" . tex-mode))
 
 ;;-----------------------------------------------------------------------------
 ;; Abre o terminal do Linux partindo a janela. O Emacs 24 se comporta
